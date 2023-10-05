@@ -20,7 +20,7 @@ namespace ProductManagement.Controllers
         [HttpPost]
         [Route("/AddProduct")]
         
-        public async Task<IActionResult> AddProduct([FromBody]Product product)
+        public async Task<IActionResult> AddProducts([FromBody]Product product)
         {
             
             try
